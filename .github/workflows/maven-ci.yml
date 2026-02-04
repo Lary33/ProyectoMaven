@@ -19,8 +19,8 @@ steps:
     with:
       java-version: '17'
       distribution: 'temurin'
-        cache: 'maven' # Esto hace que las descargas sean más rápidas después de la primera vez
-
+        cache: 'maven' # Esto hace que las descargas sean más rápidas después de la primera vz
+        
   # Paso 3: Ejecutar Maven (Compilar y Testear)
   - name: Build with Maven
     run: mvn -B package --file pom.xml
